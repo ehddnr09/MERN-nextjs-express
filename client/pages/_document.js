@@ -1,13 +1,14 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
+  const API_KEY = ''
   render() {
     return (
       <Html>
         <Head>
           <script
             async
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYEJpjZ3ffc1V-G_252niqCqEa5f9QTL0"
+            src="https://maps.googleapis.com/maps/api/js?key={API_KEY}"
           ></script>
         </Head>
         <body>
